@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# Inspiration 🎁
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The main inspiration behind this is to encourage new react developers to deploy their website/portfolio on github pages. Many students/fresh graduates doesn't have any resource to buy web hosting I want to encourage them to take advantage of the free feature that github has made available for us.
 
-## Available Scripts
+# cra-template-tsghpages ✨
 
-In the project directory, you can run:
+CRA template with Typescript, and Github Pages scripts installed. Fixed yarn audit issues.
+This is a template to deploy to the github pages.
 
-### `npm start`
+<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# How to Install 🏗️
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To use this template for your app you can run:
 
-### `npm test`
+```sh
+npx create-react-app my-app --template tsghpages
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+or
 
-### `npm run build`
+```sh
+yarn create react-app my-app --template tsghpages
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Warning ⚠️
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Cloning this repo will just copy the template and will not be the bundled and configured Create React App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# How to Deploy to Github Pages 🚚
 
-### `npm run eject`
+- Develop your app
+- Update your README
+- change the **homepage** from the _package.json_ to https://{your github username}.github.io
+- run **yarn deploy**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Tips ✔️
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Create your main github page by setting up a repository https://{your github username}.github.io
+- You can add additional github pages by using https://{your github username}.github.io/{route}
+- Enjoy coding!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Give ☕
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- If ever I helped you in any way and you want to give back, or just have too much money to spare,
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V4M1YMF)
