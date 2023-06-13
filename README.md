@@ -2,6 +2,8 @@
 
 The main inspiration behind this is to encourage new react developers to deploy their website/portfolio on github pages. Many students/fresh graduates doesn't have any resource to buy web hosting I want to encourage them to take advantage of the free feature that github has made available for us.
 
+See the full documentation [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site) on how to deploy github pages site
+
 # cra-template-tsghpages ✨
 
 CRA template with Typescript, and Github Pages scripts installed. Fixed yarn audit issues.
